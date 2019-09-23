@@ -2,3 +2,4 @@ pandas
 python-Levenshtein
 fuzzywuzzy
 beautifulsoup4
+requests
