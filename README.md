@@ -12,6 +12,9 @@ pip install -r requirements.txt
 ```
 
 pythonnaukri.py contains the code to scrape the python job in a city. It includes bit of data cleaning and matching skills posted on website. For matching the skills, it uses Levenshtein distance algorithm. It add the match percentage in output as column.
-Upon running, it scrape all python job available in city and generate csv and html report, it also opens new tabs for the job which have matching skills more than 50%.
+Upon running, it scrape all python job available in city and generate csv and html report.  
 
+This script is configured to scrape 10 pages only, in case you wish to scrape more page, update the page number.  
+
+Happy job searching.  
 
